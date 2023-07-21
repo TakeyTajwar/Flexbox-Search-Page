@@ -43,3 +43,17 @@ body {
     background-color: #E0FBFC;
     cursor: pointer;
 }
+
+.container > div:after {
+    display: none;
+    text-align: center;
+    
+    content: attr(data-text);
+    position: abosolute;
+
+    background-color: #F34213;
+}
+
+.container:hover > div:after {
+    display: block;
+}
