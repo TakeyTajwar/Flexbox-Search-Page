@@ -18,3 +18,28 @@ body {
 .container > div > a {
     color: #050505;
 }
+
+.search {
+    width: 70%;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+}
+
+.search > input {
+    color: #050505;
+    background-color: ##E0FBFC;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.search > button {
+    color: #050505;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: #E0FBFC;
+    cursor: pointer;
+}
