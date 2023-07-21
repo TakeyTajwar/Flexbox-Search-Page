@@ -3,3 +3,18 @@ body {
     background-color: #270722;
     background-size: cover;
 }
+
+.container {
+    margin: auto;
+}
+
+.container > div {
+    background-color: #E7BB41;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.container > div > a {
+    color: #050505;
+}
